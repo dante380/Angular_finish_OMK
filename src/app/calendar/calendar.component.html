@@ -1,1 +1,22 @@
-<p>calendar works!</p>
+<div class="weather">
+  <div class="wrap1">
+    <div class="city">
+      <p> New York </p>
+    </div>
+
+    <div class="weathertype">
+      <ul>
+        <li> <img src="../assets/images/cd.png" alt=" Weather"> </li>
+        <li> <p> Cloudy </p>	</li>
+      </ul>
+    </div>
+
+    <div  class="temp" *ngFor="let forecast of weather">
+      <p> {{ forecast.highTemperature }}C° </p>
+    </div>
+
+
+    <div class="clear"> </div>
+  </div>
+</div> <!-- Weather Ends Here -->
+

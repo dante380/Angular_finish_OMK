@@ -5,11 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './clock.component.html',
   styleUrls: ['./clock.component.css']
 })
-export class ClockComponent implements OnInit {
+export class ClockComponent {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  date_exp: number = Date.now();
 
 }

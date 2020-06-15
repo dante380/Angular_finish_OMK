@@ -1,1 +1,12 @@
-<p>clock works!</p>
+<div class="clock-date">
+  <div class="wrap">
+    <div class="clock">
+      <div id="clock_india" class="clock_container">
+        <div class="clockHolder">
+          {{date_exp | date:'h:mma'}}
+        </div>
+      </div>
+    </div> <!-- Clock End -->
+    <app-true-calendar></app-true-calendar>
+  </div>	<!-- Wrap Ends Here -->
+</div>

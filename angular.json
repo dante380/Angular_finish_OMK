@@ -21,12 +21,22 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
+              "src/assets/images",
+              "src/assets/images/clock_min3.png",
+              "src/assets/images/clock_hour3.png",
+              "src/assets/images/clock111.png",
+              "src/assets/images/cd.png",
+              "src/assets/js/jClocksGMT.js",
+              "src/assets/js/jquery.min.js",
+              "src/assets/js/jquery.rotate.js",
               "src/assets"
             ],
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +129,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "untitled"
+    }
+  },
+  "defaultProject": "untitled",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -1,15 +1,30 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-true-calendar',
   templateUrl: './true-calendar.component.html',
   styleUrls: ['./true-calendar.component.css']
 })
-export class TrueCalendarComponent implements OnInit {
+export class TrueCalendarComponent {
 
-  constructor() { }
+  date_expression: number = Date.now();
 
-  ngOnInit(): void {
-  }
+
+
+
+
+
+}
+
+
+// tslint:disable-next-line:class-name
+class lorem{
+  dateObj = new Date();
+  month = this.dateObj.getUTCMonth() + 1;
+  day = this.dateObj.getUTCDate();
+  year = this.dateObj.getUTCFullYear();
+
+  newdate = this.year + this.month  + this.day;
 
 }
